@@ -1129,10 +1129,10 @@ ini@^1.3.5, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-install-artifact-from-github@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.1.1.tgz#587cd8b1a8ed97f4d4230cd7f76bec7a0c4ff292"
-  integrity sha512-ZA4d8ABVKdGoWjYK+EyHrOfMRpOLyrBX/9dVts2ULDBRuFWObQ/I3o4f80Ca8klbYQAa5oIRG7XbU22r74A+Ew==
+install-artifact-from-github@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/install-artifact-from-github/-/install-artifact-from-github-1.1.3.tgz#552f1ec3e693f970726e3f68018ff5885665ec9e"
+  integrity sha512-iNuncO/pI1w0UOrebs9dwwVpXqERkszPcb7AYq2hbsJDS3X+XdZ+E5kE91EBSc98mjvCMWOoBa1Zk3hVeP1ddA==
 
 is-ci@^2.0.0:
   version "2.0.0"
@@ -1580,7 +1580,7 @@ ms@2.1.2, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nan@^2.14.1:
+nan@^2.14.2:
   version "2.14.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
@@ -1600,7 +1600,7 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-node-gyp@^7.1.0:
+node-gyp@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-7.1.1.tgz#55294e4353d29bc414a1cbe1068d63a2f4ac97fa"
   integrity sha512-+7TqukzQVlne5EcLrw0Cdm8S26OC4H2mTb5wji4HlsocgB6a9aYHgqlKLKxRMlH/PWNyVQjyRjFhiet7+QZefA==
@@ -1846,13 +1846,13 @@ rc@^1.2.8:
     strip-json-comments "~2.0.1"
 
 re2@^1.15.0:
-  version "1.15.6"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.6.tgz#838f86ea4205ffec47c7f5802b12a8fee33472b3"
-  integrity sha512-SsxGuKiizqOPBwm2YkMfh+Wsj+02sqP9y8xydC9KbZqHuY2qdjEyoJAfBapKSTK130gZMXVE6Qm+GTlOfjwqJw==
+  version "1.15.7"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.15.7.tgz#2af0d49d1aaabc356f2a720fc066297402157c0d"
+  integrity sha512-qoS2+oIAWJIW6efF8dq8d1C8SJDx6N9AZESq5xGM5d0WDxF+JEXZD7W3qQM5cnapVmfmZqSv+VJibIW0hy0HsA==
   dependencies:
-    install-artifact-from-github "^1.1.1"
-    nan "^2.14.1"
-    node-gyp "^7.1.0"
+    install-artifact-from-github "^1.1.3"
+    nan "^2.14.2"
+    node-gyp "^7.1.1"
 
 readable-stream@^2.0.6, readable-stream@^2.2.2:
   version "2.3.7"
@@ -2457,6 +2457,11 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+yarn@^1.22.10:
+  version "1.22.10"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.10.tgz#c99daa06257c80f8fa2c3f1490724e394c26b18c"
+  integrity sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA==
 
 yauzl@^2.10.0:
   version "2.10.0"
